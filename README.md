@@ -1,12 +1,12 @@
 # CIE Lab色空間の表示
 
-## $L^{*}a^{*}b^{*}$からXYZへの変換
+## $L^*a^*b^*$からXYZへの変換
 $$
-\begin{align*}
-f_{y} &= \frac{L^{*}+16}{116} \\
-f_{x} &= f_{y}+\frac{a^{*}}{500} \\
-f_{z} &= f_{y}-\frac{b^{*}}{200} 
-\end{align*}
+\begin{aligned}
+f_y &= \frac{L^*+16}{116} \\
+f_x &= f_{y}+\frac{a^*}{500} \\
+f_z &= f_{y}-\frac{b^*}{200} 
+\end{aligned}
 $$
 とすると
 $$
